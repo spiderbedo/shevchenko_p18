@@ -1,9 +1,11 @@
 def count_uppercase() -> int:
+    
     """
     Counts uppercase letters in srez from i to j
     Returns:
         int: number of uppercase letters
     """
+    
     s = input().strip()
     i, j = map(int, input().split())
     srez = s[i-1:j]
