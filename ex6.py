@@ -12,7 +12,7 @@ def print_result(func):
 
 
 @print_result
-def square(x):
+def square(x) -> int:
     return x * x
 
 
